@@ -225,6 +225,7 @@ python PubSubToGCS.py \
     --num_shards=2 \
     --temp_location=gs://bucket_name/temp
 ```
+
 ![Screenshot 2025-06-19 1 58 11 PM](https://github.com/user-attachments/assets/a4c3bfe2-21b5-4cc8-a7ed-03303996082a)
 
 Note: When executing the python command, replace project_id, bucket_name, and region with your project id, bucket name, and assigned lab region.
@@ -237,10 +238,12 @@ Click Check my progress to verify the objective.
 ## **Task 4. Observe job and pipeline progress**
 
 Go to Dataflow console to observe the job's progress.
+
 ![Screenshot 2025-06-19 1 58 21 PM](https://github.com/user-attachments/assets/7b07609b-6981-4d23-afce-d0d0494d9334)
 
 
 Click Refresh to see the job and the latest status updates.
+
 ![Screenshot 2025-06-19 2 03 39 PM](https://github.com/user-attachments/assets/e5535a14-59ef-4116-b023-47a08b2bc7f1)
 
 
@@ -263,6 +266,7 @@ and then execute the command below to list the files that have been written out 
 ```bash
 gsutil ls gs://${BUCKET_NAME}/samples/
 ```
+
 ![Screenshot 2025-06-19 2 03 59 PM](https://github.com/user-attachments/assets/ab1718a9-d035-4152-989a-3949118a439a)
 
 ## **Task 5. Cleanup**
@@ -293,5 +297,7 @@ In Cloud Shell, delete the Cloud Storage bucket:
 ```bash
 gsutil rb gs://${BUCKET_NAME}
 ```
+
+
 ![Screenshot 2025-06-19 2 08 00 PM](https://github.com/user-attachments/assets/00d349a1-6c35-40f2-a9ec-1b5d34848202)
 
