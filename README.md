@@ -264,7 +264,7 @@ If you have not already, exit the application in Cloud Shell using CTRL+C.
 For the Python option, type exit to exit the Python environment.
 
 In Cloud Shell, delete the Cloud Scheduler job:
-``bash
+```bash
 gcloud scheduler jobs delete publisher-job
 ```
 If prompted "Do you want to continue", press Y and enter.
